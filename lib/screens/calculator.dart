@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../components/display.dart';
 
 class Calculator extends StatelessWidget {
   const Calculator({ Key? key }) : super(key: key);
@@ -8,7 +9,7 @@ class Calculator extends StatelessWidget {
     return MaterialApp(
       home:Column(
         children: <Widget>[
-        Text('Display'),
+        Display(text:'123.456'),
         Text('Keyboard'),
       ],
       ),
